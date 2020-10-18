@@ -3849,6 +3849,10 @@
 "aln" = (
 /obj/structure/dogbed,
 /mob/living/simple_animal/corgi/Ian,
+/obj/machinery/newscaster/security_unit{
+	dir = 4;
+	pixel_x = -24
+	},
 /turf/simulated/floor/wood/ebony,
 /area/crew_quarters/heads/hop)
 "alo" = (
@@ -25251,6 +25255,12 @@
 	},
 /turf/simulated/floor/bluegeo_light,
 /area/planets/Geminus/indoor/city_hall)
+"fYi" = (
+/obj/machinery/newscaster/security_unit{
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled/dark,
+/area/planets/Geminus/indoor/city_hall)
 "hyV" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/bombclosetsecurity,
@@ -25260,6 +25270,13 @@
 /obj/machinery/recharger/wallcharger,
 /turf/simulated/wall/iron/silver_paint,
 /area/security/processing_two)
+"kSD" = (
+/obj/machinery/newscaster/security_unit{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled,
+/area/crew_quarters/captain)
 "oAC" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 5
@@ -25272,6 +25289,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters)
+"vQs" = (
+/obj/machinery/light/floor,
+/obj/machinery/newscaster/security_unit,
+/turf/simulated/floor/pavement/brick_paving{
+	outdoors = 0
+	},
+/area/security/prison)
 "wFK" = (
 /obj/machinery/newscaster{
 	dir = 4;
@@ -38181,7 +38205,7 @@ abx
 abQ
 aaH
 acW
-aeq
+kSD
 aeq
 afk
 aaH
@@ -40219,7 +40243,7 @@ aiJ
 alH
 ahZ
 abp
-aid
+fYi
 apW
 aqH
 avn
@@ -43631,7 +43655,7 @@ asq
 asq
 asq
 asq
-aKw
+vQs
 aEo
 aag
 aiu
