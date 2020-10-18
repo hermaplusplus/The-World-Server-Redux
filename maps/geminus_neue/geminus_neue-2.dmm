@@ -25277,6 +25277,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/captain)
+"oyK" = (
+/obj/structure/closet/radiation{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/outpost/research/anomaly)
 "oAC" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 5
@@ -36050,17 +36056,17 @@ aag
 aES
 aGm
 aHX
-aJv
-aJv
+oyK
+oyK
 aJv
 aJv
 aXD
 aJv
 aJv
+aJv
 aUE
 aUE
 aUE
-aHX
 aES
 aXy
 aYg
