@@ -68,18 +68,17 @@
 /turf/simulated/floor/tiled/dark,
 /area/lots/shopping/shopping_lot_three)
 "at" = (
+/obj/machinery/newscaster/security_unit{
+	dir = 8;
+	pixel_x = 24
+	},
+/turf/simulated/floor/tiled,
+/area/crew_quarters/heads/hos)
+"au" = (
 /obj/machinery/light/colored{
 	dir = 1;
 	icon_state = "yellow1";
 	tag = "icon-yellow1 (NORTH)"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/lots/shopping/shopping_lot_three)
-"au" = (
-/obj/machinery/light/colored{
-	tag = "icon-yellow1 (NORTH)";
-	icon_state = "yellow1";
-	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/lots/shopping/shopping_lot_three)
@@ -188,8 +187,8 @@
 /area/planets/Geminus/indoor/panicbunker)
 "aJ" = (
 /obj/machinery/vr_sleeper{
-	icon_state = "redpod_0";
-	dir = 4
+	dir = 4;
+	icon_state = "redpod_0"
 	},
 /obj/machinery/flasher{
 	id = "medcell1";
@@ -223,8 +222,8 @@
 /area/tcommsat/entrance)
 "aO" = (
 /obj/machinery/vr_sleeper{
-	icon_state = "redpod_0";
-	dir = 4
+	dir = 4;
+	icon_state = "redpod_0"
 	},
 /obj/machinery/flasher{
 	id = "medcell2";
@@ -290,17 +289,17 @@
 /area/lots/shopping/shopping_lot_three)
 "aZ" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (NORTH)";
+	dir = 1;
 	icon_state = "yellow1";
-	dir = 1
+	tag = "icon-yellow1 (NORTH)"
 	},
 /turf/simulated/floor/diamond,
 /area/planets/Geminus/indoor/shoppingarea)
 "ba" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (EAST)";
+	dir = 4;
 	icon_state = "yellow1";
-	dir = 4
+	tag = "icon-yellow1 (EAST)"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/lots/shopping/shopping_lot_four)
@@ -525,8 +524,8 @@
 /area/medical/morgue)
 "bQ" = (
 /obj/machinery/vr_sleeper{
-	icon_state = "redpod_0";
-	dir = 4
+	dir = 4;
+	icon_state = "redpod_0"
 	},
 /obj/machinery/flasher{
 	id = "medcell3";
@@ -562,8 +561,8 @@
 /area/medical/medbay_primary_storage)
 "bW" = (
 /obj/machinery/vr_sleeper{
-	icon_state = "redpod_0";
-	dir = 4
+	dir = 4;
+	icon_state = "redpod_0"
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/patients_rooms)
@@ -672,9 +671,9 @@
 /obj/machinery/recharger,
 /obj/structure/table/marble,
 /obj/machinery/light/colored/blue{
-	tag = "icon-blue1 (NORTH)";
+	dir = 1;
 	icon_state = "blue1";
-	dir = 1
+	tag = "icon-blue1 (NORTH)"
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/hos)
@@ -922,8 +921,8 @@
 	dir = 4
 	},
 /obj/machinery/vr_sleeper{
-	icon_state = "redpod_0";
-	dir = 8
+	dir = 8;
+	icon_state = "redpod_0"
 	},
 /turf/simulated/floor/wood/walnut,
 /area/medical/psych/psychoffice)
@@ -993,8 +992,8 @@
 /area/medical/psych/recreationwing)
 "dp" = (
 /obj/item/device/mic_stand{
-	icon_state = "micstand";
-	dir = 8
+	dir = 8;
+	icon_state = "micstand"
 	},
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 5
@@ -1082,8 +1081,8 @@
 /area/planets/Geminus/indoor/panicbunker)
 "dC" = (
 /obj/machinery/metal_detector{
-	icon_state = "metal_detector";
-	dir = 1
+	dir = 1;
+	icon_state = "metal_detector"
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/psych)
@@ -1314,9 +1313,9 @@
 "er" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite/corner,
 /turf/simulated/floor/tiled/white,
@@ -1324,9 +1323,9 @@
 "es" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite,
 /obj/machinery/light/colored/blue{
@@ -1339,14 +1338,14 @@
 "et" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite/corner{
-	tag = "icon-borderfloorcorner_white (WEST)";
+	dir = 8;
 	icon_state = "borderfloorcorner_white";
-	dir = 8
+	tag = "icon-borderfloorcorner_white (WEST)"
 	},
 /turf/simulated/floor/tiled/white,
 /area/planets/Geminus/indoor/panicbunker)
@@ -1368,14 +1367,14 @@
 "ew" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite{
-	tag = "icon-borderfloor_white (EAST)";
+	dir = 4;
 	icon_state = "borderfloor_white";
-	dir = 4
+	tag = "icon-borderfloor_white (EAST)"
 	},
 /turf/simulated/floor/tiled/white,
 /area/planets/Geminus/indoor/panicbunker)
@@ -1386,28 +1385,28 @@
 "ey" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite{
-	tag = "icon-borderfloor_white (WEST)";
+	dir = 8;
 	icon_state = "borderfloor_white";
-	dir = 8
+	tag = "icon-borderfloor_white (WEST)"
 	},
 /turf/simulated/floor/tiled/white,
 /area/planets/Geminus/indoor/panicbunker)
 "ez" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite/corner{
-	tag = "icon-borderfloorcorner_white (EAST)";
+	dir = 4;
 	icon_state = "borderfloorcorner_white";
-	dir = 4
+	tag = "icon-borderfloorcorner_white (EAST)"
 	},
 /turf/simulated/floor/tiled/white,
 /area/planets/Geminus/indoor/panicbunker)
@@ -1422,14 +1421,14 @@
 "eB" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite/corner{
-	tag = "icon-borderfloorcorner_white (NORTH)";
+	dir = 1;
 	icon_state = "borderfloorcorner_white";
-	dir = 1
+	tag = "icon-borderfloorcorner_white (NORTH)"
 	},
 /turf/simulated/floor/tiled/white,
 /area/planets/Geminus/indoor/panicbunker)
@@ -1483,8 +1482,8 @@
 /area/crew_quarters/heads/hos)
 "eN" = (
 /obj/machinery/computer/security{
-	icon_state = "computer";
-	dir = 4
+	dir = 4;
+	icon_state = "computer"
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/hos)
@@ -1499,9 +1498,9 @@
 /obj/item/ammo_magazine/s38/practice,
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/machinery/light/colored/blue{
-	tag = "icon-blue1 (WEST)";
+	dir = 8;
 	icon_state = "blue1";
-	dir = 8
+	tag = "icon-blue1 (WEST)"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/range)
@@ -1718,9 +1717,9 @@
 /obj/effect/floor_decal/rust,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (EAST)";
+	dir = 4;
 	icon_state = "yellow1";
-	dir = 4
+	tag = "icon-yellow1 (EAST)"
 	},
 /turf/simulated/floor/tiled/old_tile/gray,
 /area/lots/business/business_lot_ten)
@@ -1827,10 +1826,10 @@
 /area/planets/Geminus/indoor/panicbunker)
 "fK" = (
 /obj/machinery/computer/secure_data{
-	name = "criminal records database";
 	desc = "Used to view, edit and maintain the criminal database of the Mendell City operations area.";
+	dir = 8;
 	icon_state = "computer";
-	dir = 8
+	name = "criminal records database"
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/hos)
@@ -1939,11 +1938,6 @@
 	id = "mcpd_chief";
 	name = "Police Chief Shutters";
 	pixel_x = 25
-	},
-/obj/machinery/newscaster{
-	layer = 3.3;
-	pixel_x = 30;
-	pixel_y = 30
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/hos)
@@ -2251,14 +2245,14 @@
 "he" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite{
-	tag = "icon-borderfloor_white (NORTH)";
+	dir = 1;
 	icon_state = "borderfloor_white";
-	dir = 1
+	tag = "icon-borderfloor_white (NORTH)"
 	},
 /obj/machinery/light/colored/blue,
 /turf/simulated/floor/tiled/white,
@@ -2281,9 +2275,9 @@
 "hh" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite/corner,
 /turf/simulated/floor/tiled/white,
@@ -2630,9 +2624,9 @@
 /area/crew_quarters/courtroom/prosecution)
 "ik" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (WEST)";
+	dir = 8;
 	icon_state = "yellow1";
-	dir = 8
+	tag = "icon-yellow1 (WEST)"
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/courtroom/civil)
@@ -2653,8 +2647,8 @@
 /area/crew_quarters/courtroom/prosecution)
 "in" = (
 /obj/structure/flora/pottedplant{
-	tag = "icon-plant-22";
-	icon_state = "plant-22"
+	icon_state = "plant-22";
+	tag = "icon-plant-22"
 	},
 /obj/structure/table/glass,
 /turf/simulated/floor/tiled/dark,
@@ -2771,9 +2765,9 @@
 /area/crew_quarters/courtroom/evidence_storage)
 "iI" = (
 /obj/machinery/light/colored/red{
-	tag = "icon-red1 (WEST)";
+	dir = 8;
 	icon_state = "red1";
-	dir = 8
+	tag = "icon-red1 (WEST)"
 	},
 /obj/structure/closet/lawcloset,
 /turf/simulated/floor/tiled/dark,
@@ -2784,9 +2778,9 @@
 /area/crew_quarters/courtroom/evidence_storage)
 "iK" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (WEST)";
+	dir = 8;
 	icon_state = "yellow1";
-	dir = 8
+	tag = "icon-yellow1 (WEST)"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/courtroom/hallway)
@@ -2939,13 +2933,13 @@
 /area/crew_quarters/courtroom/hallway)
 "jp" = (
 /obj/structure/bed/chair/sofa/black{
-	icon_state = "sofamiddle";
-	dir = 8
+	dir = 8;
+	icon_state = "sofamiddle"
 	},
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (WEST)";
+	dir = 8;
 	icon_state = "yellow1";
-	dir = 8
+	tag = "icon-yellow1 (WEST)"
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/courtroom/witness_area)
@@ -2990,9 +2984,9 @@
 /area/crew_quarters/courtroom/evidence_storage)
 "jw" = (
 /obj/machinery/light/colored/red{
-	tag = "icon-red1 (EAST)";
+	dir = 4;
 	icon_state = "red1";
-	dir = 4
+	tag = "icon-red1 (EAST)"
 	},
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -3042,9 +3036,9 @@
 /area/crew_quarters/courtroom/evidence_storage)
 "jE" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (WEST)";
+	dir = 8;
 	icon_state = "yellow1";
-	dir = 8
+	tag = "icon-yellow1 (WEST)"
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/courtroom/witness_area)
@@ -3170,8 +3164,8 @@
 /area/security/security_equiptment_storage)
 "ka" = (
 /obj/structure/bed/chair/sofa/black/right{
-	icon_state = "sofaend_right";
-	dir = 8
+	dir = 8;
+	icon_state = "sofaend_right"
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/courtroom/witness_area)
@@ -3188,15 +3182,15 @@
 /area/crew_quarters/courtroom/witness_area)
 "kc" = (
 /obj/structure/bed/chair/sofa/black{
-	icon_state = "sofamiddle";
-	dir = 8
+	dir = 8;
+	icon_state = "sofamiddle"
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/courtroom/witness_area)
 "kd" = (
 /obj/structure/bed/chair/sofa/black/left{
-	icon_state = "sofaend_left";
-	dir = 8
+	dir = 8;
+	icon_state = "sofaend_left"
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/courtroom/witness_area)
@@ -3339,9 +3333,9 @@
 "kC" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite,
 /obj/machinery/light/colored/blue{
@@ -3354,14 +3348,14 @@
 "kD" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite/corner{
-	tag = "icon-borderfloorcorner_white (WEST)";
+	dir = 8;
 	icon_state = "borderfloorcorner_white";
-	dir = 8
+	tag = "icon-borderfloorcorner_white (WEST)"
 	},
 /turf/simulated/floor/tiled/white,
 /area/tcommsat/entrance)
@@ -3378,14 +3372,14 @@
 "kG" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite{
-	tag = "icon-borderfloor_white (EAST)";
+	dir = 4;
 	icon_state = "borderfloor_white";
-	dir = 4
+	tag = "icon-borderfloor_white (EAST)"
 	},
 /turf/simulated/floor/tiled/white,
 /area/tcommsat/entrance)
@@ -3396,42 +3390,42 @@
 "kI" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite{
-	tag = "icon-borderfloor_white (WEST)";
+	dir = 8;
 	icon_state = "borderfloor_white";
-	dir = 8
+	tag = "icon-borderfloor_white (WEST)"
 	},
 /turf/simulated/floor/tiled/white,
 /area/tcommsat/entrance)
 "kJ" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite/corner{
-	tag = "icon-borderfloorcorner_white (EAST)";
+	dir = 4;
 	icon_state = "borderfloorcorner_white";
-	dir = 4
+	tag = "icon-borderfloorcorner_white (EAST)"
 	},
 /turf/simulated/floor/tiled/white,
 /area/tcommsat/entrance)
 "kK" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite{
-	tag = "icon-borderfloor_white (NORTH)";
+	dir = 1;
 	icon_state = "borderfloor_white";
-	dir = 1
+	tag = "icon-borderfloor_white (NORTH)"
 	},
 /obj/machinery/light/colored/blue,
 /turf/simulated/floor/tiled/white,
@@ -3439,14 +3433,14 @@
 "kL" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
-	tag = "icon-corner_white (NORTH)";
+	dir = 1;
 	icon_state = "corner_white";
-	dir = 1
+	tag = "icon-corner_white (NORTH)"
 	},
 /obj/effect/floor_decal/borderfloorwhite/corner{
-	tag = "icon-borderfloorcorner_white (NORTH)";
+	dir = 1;
 	icon_state = "borderfloorcorner_white";
-	dir = 1
+	tag = "icon-borderfloorcorner_white (NORTH)"
 	},
 /turf/simulated/floor/tiled/white,
 /area/tcommsat/entrance)
@@ -3717,23 +3711,23 @@
 /obj/structure/table/glass,
 /obj/structure/window/reinforced,
 /obj/machinery/computer/med_data/laptop{
-	icon_state = "laptop";
-	dir = 8
+	dir = 8;
+	icon_state = "laptop"
 	},
 /turf/simulated/floor/carpet/sblucarpet,
 /area/medical/psych/psychoffice)
 "lF" = (
 /obj/machinery/light/small/flicker{
-	icon_state = "bulb1";
-	dir = 8
+	dir = 8;
+	icon_state = "bulb1"
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/medical/psych)
 "lG" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (WEST)";
+	dir = 8;
 	icon_state = "yellow1";
-	dir = 8
+	tag = "icon-yellow1 (WEST)"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/lots/shopping/shopping_lot_four)
@@ -3803,25 +3797,25 @@
 /area/lots/shopping/shopping_lot_six)
 "lY" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (NORTH)";
+	dir = 1;
 	icon_state = "yellow1";
-	dir = 1
+	tag = "icon-yellow1 (NORTH)"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/lots/shopping/shopping_lot_five)
 "lZ" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (NORTH)";
+	dir = 1;
 	icon_state = "yellow1";
-	dir = 1
+	tag = "icon-yellow1 (NORTH)"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/lots/shopping/shopping_lot_six)
 "ma" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (WEST)";
+	dir = 8;
 	icon_state = "yellow1";
-	dir = 8
+	tag = "icon-yellow1 (WEST)"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/lots/shopping/shopping_lot_six)
@@ -3835,9 +3829,9 @@
 /area/lots/shopping/shopping_lot_six)
 "mc" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (EAST)";
+	dir = 4;
 	icon_state = "yellow1";
-	dir = 4
+	tag = "icon-yellow1 (EAST)"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/lots/shopping/shopping_lot_five)
@@ -3872,14 +3866,6 @@
 "mi" = (
 /obj/effect/wallframe_spawn/reinforced/electric,
 /turf/simulated/floor/wood/walnut,
-/area/pdsi_offices)
-"mj" = (
-/obj/machinery/light/colored{
-	dir = 1;
-	icon_state = "yellow1";
-	tag = "icon-yellow1 (NORTH)"
-	},
-/turf/simulated/floor/tiled/dark,
 /area/pdsi_offices)
 "mk" = (
 /turf/simulated/floor/tiled/dark,
@@ -3940,9 +3926,9 @@
 "ms" = (
 /obj/structure/table/steel,
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (WEST)";
+	dir = 8;
 	icon_state = "yellow1";
-	dir = 8
+	tag = "icon-yellow1 (WEST)"
 	},
 /turf/simulated/floor/tiled,
 /area/pdsi_offices)
@@ -4170,8 +4156,8 @@
 	tag = "icon-blue1 (EAST)"
 	},
 /obj/machinery/vr_sleeper{
-	icon_state = "redpod_0";
-	dir = 4
+	dir = 4;
+	icon_state = "redpod_0"
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/patients_rooms)
@@ -4201,9 +4187,9 @@
 /area/pdsi_offices)
 "na" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (NORTH)";
+	dir = 1;
 	icon_state = "yellow1";
-	dir = 1
+	tag = "icon-yellow1 (NORTH)"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/pdsi_offices)
@@ -4525,9 +4511,9 @@
 /area/pdsi_offices)
 "nK" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (WEST)";
+	dir = 8;
 	icon_state = "yellow1";
-	dir = 8
+	tag = "icon-yellow1 (WEST)"
 	},
 /turf/simulated/floor/tiled/white,
 /area/pdsi_offices)
@@ -4609,22 +4595,6 @@
 	},
 /turf/simulated/floor/carpet/sblucarpet,
 /area/medical/psych/psychoffice)
-"nU" = (
-/obj/machinery/light/colored{
-	dir = 4;
-	icon_state = "yellow1";
-	tag = "icon-yellow1 (EAST)"
-	},
-/turf/simulated/floor/tiled,
-/area/pdsi_offices)
-"nV" = (
-/obj/machinery/light/colored{
-	tag = "icon-yellow1 (WEST)";
-	icon_state = "yellow1";
-	dir = 8
-	},
-/turf/simulated/floor/tiled,
-/area/pdsi_offices)
 "nW" = (
 /obj/structure/closet/secure_closet,
 /turf/simulated/floor/tiled,
@@ -4639,25 +4609,25 @@
 /area/pdsi_offices)
 "nY" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (WEST)";
+	dir = 8;
 	icon_state = "yellow1";
-	dir = 8
+	tag = "icon-yellow1 (WEST)"
 	},
 /turf/simulated/floor/carpet/sblucarpet,
 /area/crew_quarters/courtroom/defense)
 "nZ" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (WEST)";
+	dir = 8;
 	icon_state = "yellow1";
-	dir = 8
+	tag = "icon-yellow1 (WEST)"
 	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/courtroom/prosecution)
 "oa" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (NORTH)";
+	dir = 1;
 	icon_state = "yellow1";
-	dir = 1
+	tag = "icon-yellow1 (NORTH)"
 	},
 /obj/machinery/holoplant{
 	dont_save = 1;
@@ -4668,9 +4638,9 @@
 /area/pdsi_offices)
 "ob" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (EAST)";
+	dir = 4;
 	icon_state = "yellow1";
-	dir = 4
+	tag = "icon-yellow1 (EAST)"
 	},
 /turf/simulated/floor/tiled,
 /area/pdsi_offices)
@@ -4742,9 +4712,9 @@
 /area/security/security_equiptment_storage)
 "oo" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (NORTH)";
+	dir = 1;
 	icon_state = "yellow1";
-	dir = 1
+	tag = "icon-yellow1 (NORTH)"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/lots/business/business_lot_five)
@@ -4754,35 +4724,19 @@
 "oq" = (
 /turf/simulated/floor/tiled/dark,
 /area/lots/business/business_lot_six)
-"or" = (
-/obj/machinery/light/colored{
-	tag = "icon-yellow1 (EAST)";
-	icon_state = "yellow1";
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/lots/business/business_lot_five)
 "os" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (WEST)";
+	dir = 8;
 	icon_state = "yellow1";
-	dir = 8
+	tag = "icon-yellow1 (WEST)"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/lots/business/business_lot_five)
-"ot" = (
-/obj/machinery/light/colored{
-	tag = "icon-yellow1 (EAST)";
-	icon_state = "yellow1";
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/lots/business/business_lot_six)
 "ou" = (
 /obj/machinery/light/colored{
-	tag = "icon-yellow1 (WEST)";
+	dir = 8;
 	icon_state = "yellow1";
-	dir = 8
+	tag = "icon-yellow1 (WEST)"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/lots/business/business_lot_six)
@@ -7885,7 +7839,7 @@ hi
 hi
 hi
 ag
-at
+au
 as
 as
 as
@@ -8533,7 +8487,7 @@ hi
 hi
 hi
 ag
-at
+au
 as
 as
 as
@@ -14032,7 +13986,7 @@ nL
 nM
 nR
 my
-nU
+ob
 nW
 cX
 hi
@@ -14518,7 +14472,7 @@ nJ
 nQ
 nR
 my
-nV
+oc
 nW
 cX
 hi
@@ -14657,7 +14611,7 @@ hi
 hi
 hi
 cX
-mj
+na
 mk
 mk
 mk
@@ -20199,13 +20153,13 @@ hi
 bI
 oo
 op
-or
+ox
 op
 op
 op
 op
 op
-or
+ox
 op
 op
 op
@@ -21171,7 +21125,7 @@ hi
 kN
 oq
 oq
-ot
+ov
 oq
 oq
 oq
@@ -21186,7 +21140,7 @@ oq
 oq
 oq
 oq
-ot
+ov
 oq
 kN
 hi
@@ -22354,7 +22308,7 @@ hi
 hi
 eL
 eS
-fL
+at
 gc
 go
 eM
